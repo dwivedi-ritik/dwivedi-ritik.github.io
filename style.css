@@ -1,0 +1,25 @@
+:root {
+    --fg-color: #ffffff;
+    --bg-color: #000;
+    --color00: #E1578A;
+    --color01: #FF69EB;
+    --color02: #FF86C8;
+    --color03: #FFA3A5;
+    --color04: #FFBF81;
+    --color05: #FFDC5E;
+    --color06: #FDFF8F;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--fg-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--color01);
+}
+
+h1 {
+    color: var(--color00);
+}

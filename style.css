@@ -8,6 +8,7 @@
     --color04: #FFBF81;
     --color05: #FFDC5E;
     --color06: #FDFF8F;
+    --ui-color: #4299e1;
 }
 
 body {
@@ -22,4 +23,71 @@ a {
 
 h1 {
     color: var(--fg-color);
+    font-size: 3rem;
+}
+
+.heading {
+    margin: 5rem auto 0 auto;
+    max-width: 50rem;
+    text-align: center;
+}
+
+.subheading {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.projects {
+    margin: 10rem auto 0 auto;
+    max-width: 50rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.proj {
+    width: 100%;
+    height: 4rem;
+    background-color: #E1578A;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* text animation */
+.header {
+    font-size: 3rem;
+    letter-spacing: 2px;
+    color: #f35626;
+    background-image: linear-gradient(to left, #79c2ff, #4a5888);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 10s infinite linear;
+}
+
+@-webkit-keyframes hue {
+    from {
+        -webkit-filter: hue-rotate(0deg);
+    }
+
+    to {
+        -webkit-filter: hue-rotate(-360deg);
+    }
 }

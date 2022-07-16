@@ -33,6 +33,24 @@ h1 {
     font-size: 3rem;
 }
 
+nav {
+    max-width: 100%;
+    margin: 1rem auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navs {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navs a {
+    font-size: 0.9rem;
+    color: #fff;
+}
+
 .heading {
     margin: 5rem auto 0 auto;
     max-width: 50rem;
@@ -98,4 +116,18 @@ h1 {
     to {
         -webkit-filter: hue-rotate(-360deg);
     }
+}
+
+@media screen and (max-width: 600px) {
+
+    .projects,
+    .connect,
+    nav {
+        padding: 0 15px 0 15px;
+    }
+
+    .navs {
+        display: none;
+    }
+
 }

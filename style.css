@@ -110,6 +110,10 @@ nav {
     margin-top: 2rem;
 }
 
+a:hover {
+    color: var(--color01)
+}
+
 /* text animation */
 .header {
     font-size: 3rem;
@@ -132,15 +136,8 @@ nav {
 }
 
 @media screen and (max-width: 600px) {
-
-    .projects,
-    .connect,
     nav {
-        padding: 0 15px 0 15px;
-    }
-
-    .navs {
-        display: none;
+        flex-wrap: wrap;
     }
 
 }

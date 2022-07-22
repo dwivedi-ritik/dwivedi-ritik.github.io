@@ -26,8 +26,40 @@ body {
     background-color: rgb(15, 22, 36);
 }
 
+nav {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem auto 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.navs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon-div {
+    display: flex;
+    width: 5rem;
+    justify-content: center;
+}
+
+.icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+
 .icon svg {
-    color: #fff;
+    display: inline-block;
+    width: 1rem;
 }
 
 a {
@@ -40,18 +72,7 @@ h1 {
     font-size: 3rem;
 }
 
-nav {
-    max-width: 100%;
-    margin: 1rem auto 0 auto;
-    display: flex;
-    justify-content: space-around;
-}
 
-.navs {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
 
 .navs a {
     font-size: 0.9rem;
@@ -79,7 +100,7 @@ nav {
 
 
 .projects {
-    margin: 10rem auto 0 auto;
+    margin: 5rem auto 0 auto;
     height: auto;
     max-width: 35rem;
     min-width: auto;
@@ -142,13 +163,14 @@ a:hover {
 }
 
 @media screen and (max-width: 800px) {
-    nav {
-        flex-wrap: wrap;
-    }
 
     .projects,
     .connect {
         padding: 0 15px 0 15px;
+    }
+
+    .icon-div {
+        margin-bottom: 1rem;
     }
 
 }

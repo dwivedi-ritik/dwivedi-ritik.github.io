@@ -105,7 +105,8 @@ h2 {
 }
 
 .projects,
-.article-section {
+.article-section,
+.skill-section {
     margin: 5rem auto 0 auto;
     height: auto;
     max-width: 35rem;
@@ -189,6 +190,40 @@ h2 {
     opacity: 0.6;
 }
 
+.skills {
+    margin-top: 2rem;
+    max-width: 45rem;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.skill {
+    /* height: 5rem; */
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    /* background-color: #E1578A; */
+}
+
+.skill-img {
+    margin-top: 5px;
+}
+
+.skill-info {
+    margin-left: 1rem;
+}
+
+.skill-title {
+    font-weight: 800;
+}
+
+.skill-desc {
+    font-size: 12px;
+    margin-top: 0.5rem;
+}
+
+
 .connect {
     margin: 5rem auto 0 auto;
     max-width: 35rem;
@@ -265,7 +300,8 @@ footer {
     .projects,
     .connect,
     .heading,
-    .article-section {
+    .article-section,
+    .skill-section {
         padding: 0 15px 0 15px;
     }
 
@@ -283,5 +319,8 @@ footer {
 
     .navs a {}
 
+    .skills {
+        grid-template-columns: 1fr 1fr;
+    }
 
 }

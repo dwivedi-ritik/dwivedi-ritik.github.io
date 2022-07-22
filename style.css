@@ -39,7 +39,7 @@ nav {
 
 .navs {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center
 }
 
 .icon-div {
@@ -216,7 +216,7 @@ a:hover {
 }
 
 footer {
-    margin-bottom: rem;
+    margin-bottom: 4rem;
 }
 
 @media screen and (max-width: 800px) {
@@ -233,4 +233,5 @@ footer {
     nav {
         flex-direction: column;
     }
+
 }

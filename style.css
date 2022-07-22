@@ -28,7 +28,7 @@ body {
 }
 
 nav {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     margin: 1rem auto 0 auto;
     display: flex;
@@ -38,8 +38,10 @@ nav {
 }
 
 .navs {
+    width: 20rem;
     display: flex;
-    justify-content: center
+    justify-content: space-around;
+
 }
 
 .icon-div {
@@ -80,7 +82,6 @@ h2 {
 .navs a {
     font-size: 0.9rem;
     color: #fff;
-    margin-right: 2rem;
 }
 
 .upperline {
@@ -96,9 +97,10 @@ h2 {
 }
 
 .subheading {
-    margin: 2rem 2rem 0 2rem;
+    margin: 2rem auto 0 auto;
     font-size: var(--subheading);
     opacity: 0.5;
+    max-width: 25rem;
 }
 
 
@@ -233,5 +235,12 @@ footer {
     nav {
         flex-direction: column;
     }
+
+    .navs {
+        width: 15rem;
+    }
+
+    .navs a {}
+
 
 }

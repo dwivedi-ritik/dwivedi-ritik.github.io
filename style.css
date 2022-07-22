@@ -170,9 +170,9 @@ h2 {
 }
 
 .other-links {
-    width: 10rem;
+    width: 6rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .con svg {

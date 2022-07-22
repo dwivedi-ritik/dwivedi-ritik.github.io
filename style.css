@@ -216,6 +216,7 @@ h2 {
 
 .skill-title {
     font-weight: 800;
+    color: var(--color04);
 }
 
 .skill-desc {

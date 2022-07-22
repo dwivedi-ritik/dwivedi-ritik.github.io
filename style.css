@@ -131,6 +131,24 @@ h2 {
     opacity: 0.5;
 }
 
+.tech-stack {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.5rem;
+}
+
+.tech-stack img {
+    margin-left: 0.5rem;
+}
+
+.demo {
+    display: block;
+    text-decoration: underline;
+    color: var(--color02);
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
 .connect {
     margin: 5rem auto 0 auto;
     max-width: 35rem;
@@ -141,6 +159,12 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.link-tech {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .other-links {
@@ -192,7 +216,7 @@ a:hover {
 }
 
 footer {
-    margin-bottom: 4rem;
+    margin-bottom: rem;
 }
 
 @media screen and (max-width: 800px) {

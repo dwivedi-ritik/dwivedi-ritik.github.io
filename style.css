@@ -23,6 +23,11 @@ body {
     color: var(--fg-color);
     font-family: 'Open Sans';
     font-size: 18px;
+    background-color: rgb(15, 22, 36);
+}
+
+.icon svg {
+    color: #fff;
 }
 
 a {
@@ -77,16 +82,17 @@ nav {
     margin: 10rem auto 0 auto;
     height: auto;
     max-width: 35rem;
+    min-width: auto;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
 }
 
 .proj {
     margin-top: 2rem;
     background-color: #171923;
-    padding: 0.8rem;
-    outline: #fff 2px;
+    padding: 1rem;
+    border: 1px solid rgba(182, 182, 182, 0.567);
+    border-radius: 2px;
 }
 
 .proj-heading {
@@ -135,9 +141,14 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     nav {
         flex-wrap: wrap;
+    }
+
+    .projects,
+    .connect {
+        padding: 0 15px 0 15px;
     }
 
 }

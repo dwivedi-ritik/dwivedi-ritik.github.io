@@ -92,7 +92,7 @@ h2 {
 
 .heading {
     margin: 5rem auto 0 auto;
-    max-width: 50rem;
+    max-width: 35rem;
     text-align: center;
 }
 
@@ -224,7 +224,8 @@ footer {
 @media screen and (max-width: 800px) {
 
     .projects,
-    .connect {
+    .connect,
+    .heading {
         padding: 0 15px 0 15px;
     }
 

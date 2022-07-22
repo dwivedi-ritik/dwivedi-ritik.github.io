@@ -104,6 +104,13 @@ h2 {
     -webkit-text-fill-color: transparent;
 }
 
+.heading-styler {
+    width: 4rem;
+    border-radius: 5px;
+    height: 0.3rem;
+    background: linear-gradient(121deg, var(--color01), var(--color04));
+}
+
 .projects,
 .article-section,
 .skill-section {

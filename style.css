@@ -153,11 +153,13 @@ h2 {
     color: var(--color02);
     text-transform: uppercase;
     font-size: 12px;
+    font-weight: 600;
+
 }
 
 .articles {
     margin-top: 2rem;
-    padding: 1.3em;
+    padding: 1em;
     display: grid;
     max-width: 35rem;
     background-color: hsl(212deg, 22%, 15%, 1);
@@ -165,25 +167,21 @@ h2 {
 }
 
 .article-title {
-    font-size: 18px;
-    color: var(--article-title);
+    font-size: 16px;
+    color: var(--ui-color);
     font-weight: bold;
-}
-
-.article-title:hover {
-    color: var(--color01);
 }
 
 .read-more {
     margin-top: 1rem;
-    font-weight: bold;
     font-size: 12px;
 }
 
 .article-desc {
     margin-top: 0.5rem;
-    font-size: 12px;
+    font-size: 14px;
     color: var(--text-color);
+    opacity: 0.6;
 }
 
 .connect {
@@ -261,7 +259,8 @@ footer {
 
     .projects,
     .connect,
-    .heading {
+    .heading,
+    .article-section {
         padding: 0 15px 0 15px;
     }
 

@@ -11,7 +11,7 @@
     --ui-color: #4299e1;
     --subheading: 14px;
     --text-color: rgb(255, 255, 255);
-    --article-box-bg: hsl(212deg, 22%, 15%, 1);
+    --article-box-bg: hsl(212deg, 45%, 9%, 1);
     --article-title: hsl(210deg, 25%, 96%);
 
 }
@@ -72,6 +72,9 @@ a {
 }
 
 
+.show-all-project {
+    float: right;
+}
 
 .navs a {
     font-size: 0.9rem;
@@ -124,10 +127,8 @@ h2 {
 
 .proj {
     margin-top: 2rem;
-    /* background-color: #171923; */
     background-color: var(--article-box-bg);
     padding: 1rem;
-    /* border: 1px solid rgba(182, 182, 182, 0.567); */
     border-radius: 2px;
 }
 
@@ -184,12 +185,6 @@ h2 {
     margin-top: 1rem;
 }
 
-.article,
-.article-top {
-    /* padding: 1em; */
-    /* background-color: hsl(212deg, 22%, 15%, 1); */
-}
-
 .article-desc {
     margin-top: 0.5rem;
     font-size: 14px;
@@ -206,11 +201,9 @@ h2 {
 }
 
 .skill {
-    /* height: 5rem; */
     display: flex;
     align-items: flex-start;
     margin-bottom: 1rem;
-    /* background-color: #E1578A; */
 }
 
 .skill-img {
@@ -223,7 +216,7 @@ h2 {
 
 .skill-title {
     font-weight: 800;
-    color: var(--color04);
+    /* color: var(--color04); */
 }
 
 .skill-desc {
@@ -324,8 +317,6 @@ footer {
     .navs {
         width: 15rem;
     }
-
-    .navs a {}
 
     .skills {
         grid-template-columns: 1fr 1fr;

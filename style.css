@@ -260,6 +260,10 @@ h2 {
     font-size: 12px;
 }
 
+a:hover {
+    color: var(--color01)
+}
+
 .download-resume {
     border: none;
     border-radius: 50px;
@@ -273,13 +277,12 @@ h2 {
 }
 
 .download-resume:hover {
+    color: #fff;
     opacity: 1;
     transition: all ease;
 }
 
-a:hover {
-    color: var(--color01)
-}
+
 
 .footer-notes {
     font-size: 12px;

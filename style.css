@@ -27,7 +27,6 @@ body {
     color: var(--fg-color);
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    /* background-color: rgb(15, 22, 36); */
     background-color: var(--body-bg);
 }
 
@@ -90,7 +89,6 @@ a {
 
 .heading {
     margin: 5rem auto 0 auto;
-    width: 40rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -126,8 +124,8 @@ h2 {
 .skill-section {
     margin: 5rem auto 0 auto;
     height: auto;
-    width: 40rem;
-    min-width: auto;
+    max-width: 40rem;
+    width: auto;
     display: flex;
     flex-direction: column;
 }
@@ -146,7 +144,7 @@ h2 {
 
 .proj-desc {
     margin-top: 0.4rem;
-    font-size: var(--subheading);
+    font-size: 14px;
     opacity: 0.6;
 }
 
@@ -173,7 +171,6 @@ h2 {
 .articles {
     margin-top: 2rem;
     display: grid;
-    width: 35rem;
     border-radius: 2px;
 }
 
@@ -201,7 +198,6 @@ h2 {
 
 .skills {
     margin-top: 2rem;
-    width: 45rem;
     display: grid;
     gap: 8px;
     grid-template-columns: 1fr 1fr 1fr;

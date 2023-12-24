@@ -121,6 +121,7 @@ h2 {
 .projects,
 .connect,
 .article-section,
+.acheivements,
 .skill-section {
     margin: 5rem auto 0 auto;
     height: auto;
@@ -222,7 +223,8 @@ h2 {
     /* color: var(--color04); */
 }
 
-.skill-desc {
+.skill-desc,
+.acheivements-card-desc {
     font-size: 12px;
     margin-top: 0.5rem;
 }
@@ -260,6 +262,13 @@ h2 {
     font-size: 12px;
 }
 
+.bg-styler {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    color: rgba(255, 255, 255, 0.566);
+}
+
 a:hover {
     color: var(--color01)
 }
@@ -282,8 +291,6 @@ a:hover {
     transition: all ease;
 }
 
-
-
 .footer-notes {
     font-size: 12px;
     color: var(--text-color);
@@ -298,6 +305,36 @@ a:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 10s infinite linear;
+}
+
+.acheivements-box {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.acheivements-card {
+    flex: 1;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid rgba(66, 66, 66, 0.5);
+}
+
+.acheivements-card:hover {
+    background-color: #252731;
+    cursor: pointer;
+}
+
+.acheivements-card-header {
+    font-size: 24px;
+    font-family: monospace;
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+}
+
+.acheivements-card-desc {
+    opacity: 0.8;
 }
 
 @-webkit-keyframes hue {

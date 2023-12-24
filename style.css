@@ -308,14 +308,13 @@ a:hover {
 }
 
 .acheivements-box {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
+    margin-top: 2rem;
+    display: grid;
+    gap: 0.8rem;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .acheivements-card {
-    flex: 1;
-    margin-top: 2rem;
     padding: 1rem;
     border-radius: 10px;
     border: 1px solid rgba(66, 66, 66, 0.5);
@@ -328,9 +327,9 @@ a:hover {
 
 .acheivements-card-header {
     font-size: 24px;
-    font-family: monospace;
+    font-family: 'Space Mono', monospace;
     font-weight: bold;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.5rem;
 }
 
 .acheivements-card-desc {
@@ -357,7 +356,8 @@ footer {
     .connect,
     .heading,
     .article-section,
-    .skill-section {
+    .skill-section,
+    .acheivements {
         padding: 0 15px 0 15px;
     }
 
@@ -373,8 +373,10 @@ footer {
         width: 15rem;
     }
 
-    .skills {
+    .skills,
+    .acheivements-box {
         grid-template-columns: 1fr 1fr;
     }
+
 
 }
